@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Yireo CategoryTreeResizable for Magento 
+ *
+ * @package     Yireo_CategoryTreeResizable
+ * @author      Yireo (http://www.yireo.com/)
+ * @copyright   Copyright (c) 2014 Yireo (http://www.yireo.com/)
+ * @license     Open Software License
+ */
+-->
+<config>
+
+    <modules>
+        <Yireo_CategoryTreeResizable>
+            <version>0.0.1</version>
+        </Yireo_CategoryTreeResizable>
+    </modules>
+
+    <global>
+        <helpers>
+            <categorytreeresizable>
+                <class>Yireo_CategoryTreeResizable_Helper</class>
+            </categorytreeresizable>
+        </helpers>
+	</global>
+
+    <adminhtml>
+        <translate>
+            <modules>
+                <Yireo_CategoryTreeResizable>
+                    <files>
+                        <default>Yireo_CategoryTreeResizable.csv</default>
+                    </files>
+                </Yireo_CategoryTreeResizable>
+            </modules>
+        </translate>
+        <layout>
+            <updates>
+                <categorytreeresizable>
+                    <file>categorytreeresizable.xml</file>
+                </categorytreeresizable>
+            </updates>
+        </layout>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <categorytreeresizable>
+                                            <title>Yireo_CategoryTreeResizable Settings</title>
+                                        </categorytreeresizable>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+
+    <default>
+        <categorytreeresizable>
+            <settings>
+                <load_jquery>1</load_jquery>
+                <load_jqueryui>1</load_jqueryui>
+            </settings>
+        </categorytreeresizable>
+    </default>
+</config>

@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Yireo CategoryTreeResizable for Magento 
+ *
+ * @package     Yireo_CategoryTreeResizable
+ * @author      Yireo (http://www.yireo.com/)
+ * @copyright   Copyright (c) 2014 Yireo (http://www.yireo.com/)
+ * @license     Open Software License
+ */
+-->
+<config>
+    <tabs>
+        <yireo translate="label" module="categorytreeresizable">
+            <label>Yireo</label>
+            <sort_order>900</sort_order>
+        </yireo>
+    </tabs>
+    <sections>
+        <categorytreeresizable translate="label" module="categorytreeresizable">
+            <label>Category Tree Resizable</label>
+            <tab>yireo</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>900</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <settings translate="label">
+                    <label>Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>900</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <load_jquery translate="label">
+                            <label>Load jQuery</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </load_jquery>
+                        <load_jqueryui translate="label">
+                            <label>Load jQuery UI</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </load_jqueryui>
+                    </fields>
+                </settings>
+            </groups>
+        </categorytreeresizable>
+    </sections>
+</config>

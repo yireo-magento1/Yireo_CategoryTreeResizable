@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<layout>
+    <adminhtml_catalog_category_edit>
+        <reference name="head">
+            <action method="addItem" ifconfig="categorytreeresizable/settings/load_jquery">
+                <type>skin_js</type><name>categorytreeresizable/jquery.min.js</name>
+            </action>
+            <action method="addItem" ifconfig="categorytreeresizable/settings/load_jqueryui">
+                <type>skin_js</type><name>categorytreeresizable/jquery-ui.min.js</name>
+            </action>
+            <action method="addItem" ifconfig="categorytreeresizable/settings/load_jquery">
+                <type>skin_js</type><name>categorytreeresizable/jquery.noconflict.js</name>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type><name>categorytreeresizable/categorytreeresizable.js</name>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type><name>categorytreeresizable/categorytreeresizable.css</name>
+            </action>
+            <action method="addItem" ifconfig="categorytreeresizable/settings/load_jqueryui">
+                <type>skin_css</type><name>categorytreeresizable/jquery-ui.css</name>
+            </action>
+        </reference>
+    </adminhtml_catalog_category_edit>
+</layout>
