@@ -3,8 +3,8 @@
     "license": "OSL-3.0",
     "type": "magento-module",
     "homepage": "https://www.yireo.com/software/magento-extensions/categorytreeresizable",
-    "description": "Allows resizing of width of category tree panel (to view long category names)"
-    "keywords":[ "composer-installer", "magento"],
+    "description": "Allows resizing of width of category tree panel (to view long category names)",
+    "keywords":["composer-installer", "magento"],
     "authors": [
         {
             "name": "Jisse Reitsma (Yireo)",
