@@ -20,3 +20,4 @@ once you're done.
     modman clone https://github.com/yireo/Yireo_CategoryTreeResizable
     modman update Yireo_CategoryTreeResizable
 
+4) Or use composer
