@@ -1,6 +1,5 @@
 # Modman file
 source/app/code/community/Yireo/CategoryTreeResizable                               app/code/community/Yireo/CategoryTreeResizable
 source/app/design/adminhtml/default/default/layout/categorytreeresizable.xml        app/design/adminhtml/default/default/layout/categorytreeresizable.xml
-source/app/design/adminhtml/default/default/template/categorytreeresizable          app/design/adminhtml/default/default/template/categorytreeresizable
 source/skin/adminhtml/default/default/categorytreeresizable                         skin/adminhtml/default/default/categorytreeresizable
 source/app/etc/modules/Yireo_CategoryTreeResizable.xml                              app/etc/modules/Yireo_CategoryTreeResizable.xml
